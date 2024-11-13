@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="images/GreenPuyo.png" rel="icon" type="image/png" />
+    <title>The Puyo Puyo Interactive Experience</title>
+  </head>
+  <body>
+    <div class="side green center-content2">
+      <img
+        id="Logo"
+        src="images/Logo.png"
+        onclick="playSfx()"
+        onmouseover="Hover9()"
+        onmouseout="NHover9()"
+        class="clickable"
+      />
+    </div>
+    <div class="org">
+      <div class="top-row">
+        <div class="top-row square red center-content2">
+          <p class="p1">Ringo Ando</p>
+          <img
+            id="Ringo"
+            src="images/Ringo/Ringo.png"
+            onclick="Ringo()"
+            onmouseover="Hover()"
+            onmouseout="NHover()"
+            class="clickable"
+          />
+        </div>
+        <div class="top-row square purple center-content2">
+          <p class="p1">Maguro Sasaki</p>
+          <img
+            id="Maguro"
+            src="images/Maguro/Maguro.png"
+            onclick="Maguro()"
+            onmouseover="Hover2()"
+            onmouseout="NHover2()"
+            class="clickable"
+          />
+        </div>
+        <div class="top-row square brown center-content2">
+          <p class="p1">Risukuma</p>
+          <p>
+            <img
+              id="Ris"
+              src="images/Risukuma/Risukuma.png"
+              onclick="Risukuma()"
+              onmouseover="Hover3()"
+              onmouseout="NHover3()"
+              class="clickable"
+            />
+          </p>
+        </div>
+
+        <div class="top-row square dark-blue center-content2">
+          <p class="p1">Ecolo</p>
+          <img
+            id="Ecolo"
+            src="images/Ecolo/Ecolo.png"
+            onclick="Ecolo()"
+            onmouseover="Hover4()"
+            onmouseout="NHover4()"
+            class="clickable"
+          />
+        </div>
+      </div>
+      <div class="middle sortoflight-blue center-content">
+        <img
+          id="Carby"
+          src="images/Carby.png"
+          onclick="Carby()"
+          onmouseover="Hover10()"
+          onmouseout="NHover10()"
+          class="clickable"
+        />
+        <img src="images/BluePuyo.png" />
+        <img src="images/GreenPuyo.png" />
+        <img src="images/RedPuyo.png" />
+        <img src="images/YellowPuyo.png" />
+        <img src="images/PurplePuyo.png" />
+        <img
+          id="Frog"
+          src="images/FrogThing.png"
+          onclick="Frog()"
+          onmouseover="Hover11()"
+          onmouseout="NHover11()"
+          class="clickable"
+        />
+      </div>
+      <div class="bottom-row">
+        <div class="bottom-row square light-blue center-content2">
+          <p class="p1">Arle Nadja</p>
+          <img
+            id="Arle"
+            src="images/Arle/Arle.png"
+            onclick="Arle()"
+            onmouseover="Hover5()"
+            onmouseout="NHover5()"
+            class="clickable"
+          />
+        </div>
+        <div class="bottom-row square green center-content2">
+          <p class="p1">Satan/Dark Prince</p>
+          <img
+            id="Satan"
+            src="images/Satan/Satan.png"
+            onclick="Satan()"
+            onmouseover="Hover6()"
+            onmouseout="NHover6()"
+            class="clickable"
+          />
+        </div>
+        <div class="bottom-row square dark-grey center-content2">
+          <p class="p1">Schezo Wegey</p>
+          <img
+            id="Schezo"
+            src="images/Schezo/Schezo.png"
+            onclick="Schezo()"
+            onmouseover="Hover7()"
+            onmouseout="NHover7()"
+            class="clickable"
+          />
+        </div>
+        <div class="bottom-row square superlight-blue center-content2">
+          <p class="p1">Sig</p>
+          <img
+            id="Sig"
+            src="images/Sig/Sig.png"
+            onclick="Sig()"
+            onmouseover="Hover8()"
+            onmouseout="NHover8()"
+            class="clickable"
+          />
+        </div>
+      </div>
+    </div>
+    <audio src="sounds/select.mp3" type="audio/mp3" id="select"></audio>
+    <audio src="sounds/Yep.mp3" type="audio/mp3" id="yep"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
